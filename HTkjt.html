@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"/>
+     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+   
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+    <style>
+        :root {
+            --navy-hero: #adaba1; 
+            --blue-accent: #007bff;
+        }
+
+        body { 
+            background-color: #fcfcfc; 
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            color: #333; 
+            margin: 0;
+        }
+        
+       
+        .hero-section { 
+            background-color: var(--navy-hero);
+            color: white; 
+            padding: 80px 0;
+            text-align: center;
+        }
+
+ 
+        .hero-section h1 {
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            max-width: 850px;
+            margin: 0 auto;
+            opacity: 0.9;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Container & Cards */
+        .main-card { 
+            border: none; 
+            border-radius: 10px; 
+            background: white;
+        }
+
+        .sidebar-card { 
+            border: none; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+            background: white;
+        }
+        
+        /* Icon Boxes */
+        .icon-container {
+            width: 50px;
+            height: 50px;
+            background-color: #f0f7ff;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+        }
+
+        /* Progress Bar & Badges */
+        .badge-info-custom { 
+            background-color: #007bff; 
+            padding: 6px 15px; 
+            border-radius: 20px; 
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .progress { height: 10px; border-radius: 20px; background-color: #e9ecef; }
+        
+        /* Button */
+        .btn-daftar {
+            background-color: #007bff;
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            border-radius: 8px;
+        }
+
+        /* Footer */
+        .footer { 
+            background-color: #d2c89e; 
+            color: #999; 
+            padding: 20px 0; 
+            font-size: 13px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #d2c89e;">
+  <div class="container">
+    <img src="logo sekolah.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    <a class="navbar-brand fw-bold" href="#">SMK DIGITAL</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto text-uppercase" style="font-size: 0.85rem;">
+        <li class="nav-item"><a class="nav-link px-3" href="Tugas2(2) _bootstraptambahan.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="Tugas2(2) _bootstraptambahan.html">Visi Misi</a></li>
+        <li class="nav-item"><a class="nav-link px-3 " href="Tugas2(2) _bootstraptambahan.html">Data Siswa</a></li>
+        <div class="dropdown">
+  <a class="btn btn-dark dropdown-toggle" href="#j" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+    Jurusan
+  </a>
+
+<div class="dropdown"></div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">PPLG</a></li>
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">TJKT</a></li>
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">KULINER</a></li>
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">BUSANA</a></li>
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">OTOMOTIF</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="Tugas2(2) _bootstraptambahan.html">Lihat Semua</a></li>
+  </ul>
+</div>
+      </ul>
+    </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1>TEKNIK KOMPUTER DAN JARINGAN</h1>
+            <p>
+                Belajar merakit komputer, mengatur jaringan , dan menguasai teknologi.
+            </p>
+        </div>
+    </header>
+
+    <!-- Content Area -->
+    <div class="container py-5">
+        <div class="row g-5">
+            
+            <!-- Kolom Kiri -->
+            <div class="col-lg-8">
+                <div class="main-card p-2">
+                    <h2 class="fw-bold mb-4">Membangun Masa Depan Melalui Teknologi </h2>
+                    <p class="text-muted mb-5" style="line-height: 1.8; text-align: justify;">
+                       TKJ – Membangun Masa Depan Melalui Teknologi
+                        Teknik Komputer dan Jaringan (TKJ) merupakan program keahlian yang mempelajari tentang komputer, jaringan internet,
+                         serta teknologi digital. Siswa belajar merakit komputer, instalasi sistem operasi, membuat dan mengelola jaringan, 
+                         serta mengatasi masalah pada perangkat komputer dan jaringan. Program ini bertujuan membekali siswa dengan pengetahuan, 
+                         keterampilan, dan sikap profesional agar mampu bersaing di dunia kerja bidang teknologi informasi.
+                        </p>
+                    <!-- Konsentrasi Keahlian -->
+                    <div class="row mb-5">
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="icon-container text-primary fw-bold">🌐</div>
+                                <h5 class="fw-bold m-0">Network Admin </h5>
+                            </div>
+                            <p class="small text-muted ps-5 ms-3">belajar instalasi jaringan LAN/WAN konfigurasi router, dan manajemen jaringan internet.</p>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="icon-container text-success fw-bold">💻</div>
+                                <h5 class="fw-bold m-0">Computer Techinian </h5>
+                            </div>
+                            <p class="small text-muted ps-5 ms-3">Belajar merakit komputer , instalasi sistem operasi, serta perbaikan dan oerawatan perangkat komputer </p>
+                        </div>
+                    </div>
+
+                    <!-- Fasilitas List -->
+                    <h4 class="fw-bold mb-4">Fasilitas Unggulan</h4>
+                    <div class="list-group list-group-flush border-top">
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3 border-0 border-bottom">
+                            <span class="text-secondary">Laboratorium Komputer</span>
+                            <span class="badge badge-info-custom">2 Lab</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3 border-0 border-bottom">
+                            <span class="text-secondary">Akses High Speed Internet</span>
+                            <span class="badge badge-info-custom">Full WiFi</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3 border-0 border-bottom">
+                            <span class="text-secondary">Sertifikasi Industri (Oracle/Microsoft)</span>
+                            <span class="badge badge-info-custom">Voucher Tersedia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card registration-card mb-4">
+                    <div class="card-header bg-dark text-white text-center py-3">
+                        <h6 class="mb-0 fw-bold">Status Pendaftaran</h6>
+                    </div>
+                    <div class="card-body p-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <small class="fw-bold">Kuota Terisi</small>
+                            <small class="fw-bold">90%</small>
+                        </div>
+                        <div class="progress mb-4" style="height: 10px;">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%"></div>
+                        </div>
+                        <button class="btn btn-primary w-100 py-2 fw-bold mb-3">DAFTAR SEKARANG</button>
+                        <div class="text-center">
+                            <a href="#" class="text-decoration-none small text-muted"><i class="bi bi-arrow-left me-1"></i>Kembali</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card Alumni -->
+                <div class="sidebar-card overflow-hidden">
+                    <img src="TKJ.jpg" class="img-fluid w-100" style="height: 220px; object-fit: cover;">
+                    <div class="p-4">
+                        <p class="fst-italic text-muted small mb-3">
+                            "Belajar teknologi hari ini, membangun masa depan digital esok hari. Terus berkarya dan jadilah ahli
+                            di dunia komputer dan jaringan"
+                            </p>
+                        <hr>
+                        <p class="fw-bold small mb-0">- Allysyya, Alumni 2010 </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="m-0">© 2026 SMK DIGITAL. Seluruh Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>
